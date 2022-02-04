@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+
+    background-image: url('../img/fondo-taller.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.outer-container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(51, 51, 51, .5); */
+}
+
+#cabecera{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(255, 255, 255, .8);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 0 30px #333;
+}
+
+
+#logo-taller{
+    width: 10rem;
+}
+
+.vacio, .info-usu{
+    flex-basis: 33%;
+}
+.container-info-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-usu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#btn-logOut, #btn-Panel{
+    margin-left: .5rem;
+    padding: .3rem 1rem;
+    color: #fff;
+    border-radius: .3rem;
+    border: 1px solid #333;
+    font-weight: 600;
+  
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#btn-Panel{
+    background-color: #00C7DA;
+}
+
+#btn-logOut{
+    background-color: #F28271;
+}
+
+.cookies{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: .5rem;
+    width: 100%;
+  }
+
+  .logo{
+
+      width: 20%;
+  }

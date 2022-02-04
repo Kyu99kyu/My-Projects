@@ -1,0 +1,55 @@
+
+
+.container-view{ margin-top:  8rem;}
+
+#datosServicios{
+    margin-top: 2rem;
+    width: 78rem;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+#datosUsuarios{
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+ 
+}
+
+
+#datosUsuarios th, #datosServicios th{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #333;
+    text-align: center;
+
+}
+
+#datosUsuarios tr, #datosServicios tr{
+    cursor: pointer;
+    text-align: right;
+}
+
+#datosUsuarios td,  #datosServicios td{
+    padding: 1rem;
+    font-size: 1.125rem;
+    border: 1px solid #333;
+    font-weight: bolder;
+    
+}
+
+#comeBack{
+    width: 8.5rem;
+    padding: .8rem .8rem;
+    color: #333;
+    font-size: 1rem;
+    border: .1rem solid #333;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #65C6D8;
+    margin: 0 .3rem;
+    transition: .5s;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
